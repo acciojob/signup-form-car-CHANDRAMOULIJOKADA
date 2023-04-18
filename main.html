@@ -13,23 +13,23 @@
 			<label for="name">
 				name*
 			</label><br>
-			<input type="text" name="name" placeholder="name" required>
+			<input type="text" name="name" id="name" placeholder="name" required>
 		</div>
 		
 		<div>
 			<label for="Email">
 				email*
 			</label><br>
-			<input type="email" name="Email" placeholder="Email" required>
+			<input type="email" name="Email" id="email" placeholder="Email" required>
 		</div>
 		
 		<div>
 			<label for="Gender">
 				gender*
 			</label><br>
-			Male:<input type="radio" name="Gender" placeholder="Gender">
+			Male:<input type="radio" name="Gender" id="gender_m" placeholder="Gender">
 			<label for="Gender"></label><br>
-			Female:<input type="radio" name="Gender" placeholder="Gender">
+			Female:<input type="radio" name="Gender" id="gender_f" placeholder="Gender">
 			
 		</div>
         
@@ -37,7 +37,7 @@
 			<label for="Car Brands">
 				cars*
 			</label><br>
-			<select>
+			<select id="cars">
 				<option>--Please choose an option--</option>
 				<option>BMW</option>
 				<option>Audi</option>
@@ -49,28 +49,28 @@
 			<label for="Age">
 				age*
 			</label><br>
-			<input type="number" name="Age" placeholder="Age" required>
+			<input type="number" name="Age" placeholder="Age" required id="age">
 		</div>
 		
 		<div>
 			<label for="DOB">
 				dob*
 			</label><br>
-			<input type="date" name="DOB" placeholder="DOB" required> 
+			<input id="dob" type="date" name="DOB" placeholder="DOB" required> 
 		</div>
 		
 		<div>
 			<label for="Phone Number">
 				phone number
 			</label><br>
-			<input type="tel" name="Phone Number" placeholder="xxx-xxx-xxxx">
+			<input id="tel" type="tel" name="Phone Number" placeholder="xxx-xxx-xxxx">
 		</div>
 		
 		<div>
 			<label for="Password">
 				password*
 			</label><br>
-			<input type="password" name="Password" placeholder="Password">
+			<input id="password" type="password" name="Password" placeholder="Password">
 		</div>
 
 		
@@ -78,7 +78,7 @@
 			<label for="Checkbox">
 				I agree to the tos*
 			</label><br>
-			<input type="checkbox" name="Checkbox" placeholder="I agree to the TOS" required>
+			<input id="tos" type="checkbox" name="Checkbox" placeholder="I agree to the TOS" required>
 		</div>
 
 		<button type="submit">submit</button>
